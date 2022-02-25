@@ -1,0 +1,7 @@
+{
+  "name": "sksevr",
+  "version-string": "1.0.0",
+  "description": "SKSE for SkyrimVR",
+  "homepage": "https://skse.silverlock.org/",
+  "supports": "windows & x64"
+}
