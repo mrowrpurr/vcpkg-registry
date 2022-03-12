@@ -1,0 +1,15 @@
+{
+  "name": "bandit",
+  "version-string": "2.0.0",
+  "description": "Human-friendly unit testing for C++11",
+  "homepage": "https://github.com/banditcpp/bandit",
+  "license": "MIT",
+  "supports": "windows & x64",
+  "dependencies": [
+    {
+      "name": "vcpkg-cmake-config",
+      "host": true
+    },
+    "snowhouse"
+  ]
+}
