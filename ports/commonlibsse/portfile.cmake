@@ -1,9 +1,7 @@
-vcpkg_from_github(
-  OUT_SOURCE_PATH SOURCE_PATH
-  REPO powerof3/CommonLibSSE
-  REF 926fa8489ea38db8ef066ff44165a2b1b2746563
-  SHA512 3f52acde77fdd157c8b40f7e9b1bdee37e23b4066d29c7e0d369971bae2194dd17b69335e99bf30e140a0c21c3097c78f0925ba6573f373b5cf8ade3643431b9
-  HEAD_REF dev-ae
+vcpkg_from_git(
+    OUT_SOURCE_PATH <SOURCE_PATH>
+    URL https://github.com/powerof3/CommonLibSSE.git
+    REF cfcef094c9082e3f5284a4d1f06bf61fe42fc187
 )
 
 vcpkg_configure_cmake(
