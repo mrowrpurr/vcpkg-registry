@@ -1,5 +1,6 @@
 {
   "default": {
+    "bandit": { "baseline": "2.0.0", "port-version": 0 },
     "commonlibsse": { "baseline": "1.0.0", "port-version": 0 },
     "commonlibvr": { "baseline": "1.0.0", "port-version": 0 },
     "sksevr": { "baseline": "1.0.0", "port-version": 0 }
