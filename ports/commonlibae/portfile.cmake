@@ -1,5 +1,5 @@
 vcpkg_from_git(
-    OUT_SOURCE_PATH <SOURCE_PATH>
+    OUT_SOURCE_PATH SOURCE_PATH
     URL https://github.com/powerof3/CommonLibSSE.git
     REF cfcef094c9082e3f5284a4d1f06bf61fe42fc187
 )
