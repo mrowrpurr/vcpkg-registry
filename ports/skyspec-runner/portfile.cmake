@@ -1,7 +1,7 @@
 vcpkg_from_git(
     OUT_SOURCE_PATH SOURCE_PATH
     URL https://github.com/mrowrpurr/SkySpec.git
-    REF 360e48315a6a758061d09357a4ec56641e437185
+    REF b70b79ab2b0df2356657640ab3b96e824faa0a24
 )
 
 vcpkg_configure_cmake(
