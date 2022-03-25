@@ -13,6 +13,13 @@ vcpkg_install_cmake()
 vcpkg_cmake_config_fixup(PACKAGE_NAME SkySpec_Runner CONFIG_PATH lib/cmake)
 vcpkg_copy_pdbs()
 
+file(GLOB CMAKE_CONFIGS "${CURRENT_PACKAGES_DIR}/share/SkySpecRunner/SkySpecRunner/*.cmake")
+file(INSTALL ${CMAKE_CONFIGS} DESTINATION "${CURRENT_PACKAGES_DIR}/share/SkySpecRunner")
+
 file(REMOVE_RECURSE "${CURRENT_PACKAGES_DIR}/debug/include")
+file(REMOVE_RECURSE "${CURRENT_PACKAGES_DIR}/share/SkySpecRunner/SkySpecRunner")
+
+file(REMOVE_RECURSE "${CURRENT_PACKAGES_DIR}/debug/include")
+file(REMOVE_RECURSE "${CURRENT_PACKAGES_DIR}/share/SkySpecRunner")
 
 file(COPY ${SOURCE_PATH}/LICENSE DESTINATION ${CURRENT_PACKAGES_DIR}/share/skyspec-runner/copyright)
