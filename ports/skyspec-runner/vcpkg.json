@@ -1,0 +1,14 @@
+{
+  "name": "skyspec-runner",
+  "version-string": "0.0.1",
+  "description": "Testing, testing, 1 2 3...",
+  "homepage": "https://github.com/mrowrpurr/SkySpec",
+  "license": "MIT",
+  "supports": "windows & x64",
+  "dependencies": [
+    {
+      "name": "vcpkg-cmake-config",
+      "host": true
+    }
+  ]
+}
