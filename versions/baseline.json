@@ -1,11 +1,5 @@
 {
   "default": {
-    "bandit": { "baseline": "2.0.0", "port-version": 0 },
-    "commonlibae": { "baseline": "1.0.0", "port-version": 0 },
-    "commonlibsse": { "baseline": "1.0.0", "port-version": 0 },
-    "commonlibvr": { "baseline": "1.0.0", "port-version": 0 },
-    "sksevr": { "baseline": "1.0.0", "port-version": 0 },
-    "skyspec-common": { "baseline": "1.0.0", "port-version": 0 },
-    "skyspec-runner": { "baseline": "1.0.0", "port-version": 0 }
+    "bandit": { "baseline": "2.0.0", "port-version": 0 }
   }
 }
