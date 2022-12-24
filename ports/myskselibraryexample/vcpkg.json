@@ -1,0 +1,13 @@
+{
+  "name": "myskselibraryexample",
+  "version-string": "1.0.0",
+  "description": "I hope I make this work",
+  "homepage": "https://github.com/mrowrpurr/skse-library-demo",
+  "license": "MIT",
+  "dependencies": [
+    {
+      "name": "vcpkg-cmake-config",
+      "host": true
+    }
+  ]
+}
