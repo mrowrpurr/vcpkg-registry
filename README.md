@@ -1,3 +1,3 @@
-# Mrowr Purr's vcpkg repository
+<img src="https://raw.githubusercontent.com/mrowrpurr/vcpkg-repo/main/Images/vcpkg-logo.png" align=right />
 
-See each individual package in `ports/` for project LICENSE.
+# Mrowr Purr's vcpkg repository
