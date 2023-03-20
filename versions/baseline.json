@@ -1,6 +1,7 @@
 {
   "default": {
     "bandit": { "baseline": "2.0.0", "port-version": 0 },
-    "cspec": { "baseline": "0.0.1", "port-version": 0 }
+    "cspec": { "baseline": "0.0.1", "port-version": 0 },
+    "luabridge3": { "baseline": "3.0.0", "port-version": 0 }
   }
 }

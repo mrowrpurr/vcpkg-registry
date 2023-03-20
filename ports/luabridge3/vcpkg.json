@@ -1,0 +1,6 @@
+{
+	  "name": "luabridge3",
+	  "version-string": "3.0.0",
+	  "port-version": 0,
+	  "description": "A lightweight, dependency-free library for binding Lua to C++"
+}
